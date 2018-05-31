@@ -299,5 +299,10 @@ nav {
 
 #menu {
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
+    margin-right: auto;
+}
+
+.mots {
+    margin: 10px;
 }
