@@ -285,3 +285,19 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+h1 {
+    font-family: comic sans ms;
+    color: red;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#menu {
+    list-style-type: none;
+    display: inline-flex;
+}
