@@ -25,15 +25,19 @@
   <!-- start of header -->
 
   <header>
-    <nav>
-      <ul id="menu">
-        <li class="mots"><a href="index.html">index</a></li>
-        <li class="mots"><a href="article.html">article</a></li>
-        <li class="mots"><a href="biographie.html">biographie</a></li>
+    <nav class="flex">
+      <ul class="flex">
+        <li><a href="index.html"><i class="fas fa-desktop"></i>INDEX</a></li>
+        <li><a href="article.html"><i class="far fa-newspaper"></i>ARTICLE</a></li>
+        <li><a href="biographie.html"><i class="fas fa-user-circle"></i>BIOGRAPHY</a></li>
       </ul>
+      <aside>
+        <a href="#">SUBSCRIBE NOW</a>
+        <a href="#">LOG IN</a>
+      </aside>
     </nav>
 
-    <section class="ligne">
+    <section class="ligne welcome flex">
       <div>
         <img src="img/logo smith.png" alt="le logo du site">
       </div>
@@ -45,24 +49,50 @@
 
   <!-- start of main part -->
 
-  <main class="mainp1">
-    <article class="ban">
-      <div class="word">
-        <h2 class="welcome">Welcome to my world!</h2>
+  <main>
+    <section class="container textCenter">
+      <div>
+        <h2>Welcome to my world!</h2>
         <p>If you ever try to decrypt it, take the white pill it's doliprane... You're gonna need it.</p>
       </div>
-      <a href="article.html"><img id="ban1" src="img/ban1.jpg" alt="banniere rabbit"></a>
-      <a href="article.html"><img id="ban2" src="img/ban2.jpg" alt="banniere door"></a>
-      <a href="article.html"><img id="ban3" src="img/ban3.jpg" alt="banniere smith"></a> 
-      <a href="biographie.html"><img id="ban4" src="img/biography.jpg" alt="banniere biography"></a>
-    </article>      
+    </section>
+
+    <section class="container">
+      <h2>the three-phase test.</h2>
+        <div class="flex space-ard">
+          <article class="blogArticle textCenter">
+            <h3>walks on the way.</h3>
+            <img class="img" src="img/chemin3.jpg" alt="A path ">
+            <p>There's a difference between knowing the path and walking the path</p>
+            <div>
+              <a class="btn" href="article.html">open!<i class="fas fa-key"></i></a>
+            </div>
+          </article>
+          <article class="blogArticle textCenter">
+            <h3>Never send a human to do a machine's job...</h3>
+            <img class="img" src="img/matrix3.jpg" alt="falling code">
+            <p>Human beings are a disease. A cancer of this planet. You are plague. And we are the cure.</p>
+            <div>
+              <a class="btn" href="article.html">open!<i class="fas fa-key"></i></a>
+            </div>
+          </article>
+          <article class="blogArticle textCenter">
+            <h3>Do you see?</h3>
+            <img class="img" src="img/bill.jpg" alt="neo">
+            <p>Still don't recognize me?</br> I admit it is difficult to even think encased in this rotting piece of meat.</br> The stink of it filling every breath, a suffocating cloud you can't escape.</br> Disgusting.<br> Look at how pathetically fragile it is.</br> Nothing this weak is meant to survive</p>
+            <div>
+              <a class="btn" href="article.html">open!<i class="fas fa-key"></i></a>
+            </div>
+          </article>
+        </div>
+    </section>     
   </main>
 
   <!-- end of main part -->
 
   <!-- start of footer part -->
 
-  <footer class="foot">
+  <footer>
     <ul id="icon-reseaux">
       <li><a href="https://twitter.com/quentin83526037?lang=fr" class="reseaux twitter"><i class="fab fa-twitter"></i></a></li>
       <li><a href="https://github.com/duponcheel-quentin" class="reseaux github"><i class="fab fa-github"></i></a></li>

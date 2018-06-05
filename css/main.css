@@ -286,60 +286,13 @@ textarea {
     }
 }
 
-@font-face {
-    font-family: 'BlackOpsOne-Regular';
-    src: url('fonts/BlackOpsOne-Regular.ttf');
 
-}
 
-/* header */
 
-body {
-    background-color: black;
-}
+/*start global classes*/
 
-nav {
-    background-color: #DEDEDE;
-    border: 1px solid #DEDEDE;
-    width: 100%;
-    display: flex;
-    border-radius: 40px;
-}
-
-.welcome {
-    color: #378B38;
-    font-family: 'BlackOpsOne-Regular', sans-serif;
-}
-
-#menu {
-    list-style-type: none;
-    display: flex;
-    margin-right: auto 0;
-}
-
-.mots {
-    margin: 10%;
-}
-
-section {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    margin-right: 40px;
-    padding: 100px;
-}
-
-.logo {
-    width: #;
-    margin-right: 70px;
-    padding: #;
-    color: green;
-}
-
-h1 {
-    font-family: 'BlackOpsOne-Regular', sans-serif;
-    color: #378B38;
-    padding-top: 100px;
+.textCenter {
+    text-align: center;
 }
 
 .ligne {
@@ -348,50 +301,134 @@ h1 {
     margin-right: 200px;
 }
 
-/*main*/
+.logo {
+    margin-right: 70px;
+    color: green;
+}
 
-.mainp1 {
+.container {
+    width: 95%;
+    margin: auto;
+
+}
+
+.flex {
     display: flex;
-    justify-content: center;
 }
 
-.word {
-    text-align: center;
+
+.space-ard {
+    justify-content: space-around;
 }
 
-.ban {
-    display: flex;
-    flex-direction: column;
-}
-
-#ban1 {
-    margin-bottom: 50px;
-}
-
-#ban2 {
-    margin-bottom: 50px;
-}
-
-#ban3 {
-    margin-bottom: 50px;
-}
-
-#ban4 {
-    margin-bottom: 50px;
-}
-
-/* footer */
-
-.foot {
-    background-color: #DEDEDE;
-    border-radius: 40px;
+.btn {
+    color: #378B38;
+    padding: 10px;
     border: 1px solid;
-    margin: 50px;
+    border-radius: 10px;
+    margin: auto;
+}
 
+
+/*end global classes*/
+
+
+
+
+
+/*start common rules*/
+
+@font-face {
+    font-family: 'BlackOpsOne-Regular';
+    src: url('fonts/BlackOpsOne-Regular.ttf');
+}
+
+.img {
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'BlackOpsOne-Regular', sans-serif;
+    color: #378B38;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    color: #378B38;
+    font-family: 'BlackOpsOne-Regular', sans-serif;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+a {
+    color: #378B38;
+}
+
+/*end common classes*/
+
+
+
+
+/*start header styles*/
+
+nav {
+    background-color: black;
+    border: 1px solid #378B38;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+
+
+nav aside {
+    margin: 1em;
+}
+
+a {
+    margin: 1.5em;
+}
+
+h1 {
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.welcome {
+    justify-content: center;
+    width: auto;
+}
+
+.ligne {
+    border-bottom: solid 1px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+/*end header styles*/
+
+
+
+
+/*start footer styles*/
+
+footer {
+    background-color: black;
+    border-radius: 40px;
+    border: 1px solid #378B38;
+    margin: 50px;
 }
 
 #icon-reseaux {
-    list-style-type: none;
     display: flex;
     justify-content: center;
 }
@@ -400,7 +437,7 @@ h1 {
     width: 50px;
     height: 50px;
     display: inline-block;
-    color: #DEDEDE;
+    color: black;
     border-radius: 50px;
     text-align: center;
     line-height: 50px;
@@ -409,30 +446,30 @@ h1 {
 }
 
 .github:hover {
-    color: #171515;
-    background-color: #DEDEDE;
+    color: #378B38;
+    background-color: black;
 }
 
 .github {
-    background-color: #171515;
+    background-color: #378B38;
 }
 
 .twitter:hover {
-    color: #1DA1F2;
-    background-color: #DEDEDE;
+    color: #378B38;
+    background-color: black;
 }
 
 .twitter {
-    background-color: #1DA1F2;
+    background-color: #378B38;
 }
 
 .linkedin:hover {
-    color: #007BB6;
-    background-color: #DEDEDE;
+    color: #378B38;
+    background-color: black;
 }
 
 .linkedin {
-    background-color: #007BB6;
+    background-color: #378B38;
 }
 
 .Email {
@@ -440,7 +477,45 @@ h1 {
     padding: 20px;
 }
 
-/*biography*/
+/*end footer styles*/
+
+
+
+
+/*start main styles*/
+
+.blogArticle {
+    border: 1px solid #378B38;
+    margin: 1em;
+    border-radius: 40px;
+    padding-bottom: 2em;
+}
+
+.blogArticle p {
+    margin-bottom: 2em;
+}
+
+
+
+
+/*end main styles*/
+
+
+
+
+/*start article main styles*/
+
+.anonymous {
+    background-image: url("../img/matrix-wallpaper.jpg");
+    width: 100%;
+}
+
+/*end article main styles*/
+
+
+
+
+/*start biographie main style*/
 
 .bio {
     font-size: 50px;
@@ -457,7 +532,4 @@ h1 {
     color: #378B38;
 }
 
-p {
-    color: #378B38;
-    font-family: 'BlackOpsOne-Regular', sans-serif;
-}
+/*end biographie main style*/
